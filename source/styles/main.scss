@@ -1,0 +1,36 @@
+@use 'variaveis';
+
+header{
+    background-color: variaveis.$corPrimaria;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: variaveis.$corBody;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto ;    
+}
+
+header {
+        background-color: variaveis.$corPrincipal;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        padding: 10px;
+        margin-bottom: 56px;
+       
+}
+
+h1 {
+    color: azure;
+    font-size: 20px;
+}
